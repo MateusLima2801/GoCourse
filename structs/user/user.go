@@ -18,9 +18,9 @@ type User struct { // structs are passed by values
 // struct embedding
 
 type Admin struct {
-	email    string
-	password string
-	User     // public and that way the methods of the embedded struct are directly accessible
+	email    string //private
+	password string //private
+	User            // public and that way the methods of the embedded struct are directly accessible
 }
 
 // method from User struct
