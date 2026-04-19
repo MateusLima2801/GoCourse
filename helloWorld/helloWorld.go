@@ -1,4 +1,4 @@
-package main // correspondent no namespace
+package helloWorld // correspondent no namespace
 // main entry file used by go
 
 import "fmt" // library
