@@ -8,12 +8,14 @@ package main
 // import "go.com/structspractice"
 // import "go.com/generics"
 // import "go.com/lists"
-import "go.com/maps"
+// import "go.com/maps"
+import "go.com/functions"
 
 func main() {
 	// banking.StartBank()
 	// pointers.StartPointers()
 	// structspractice.StartPractice()
 	// lists.Practice()
-	maps.Practice()
+	// maps.Practice()
+	functions.Variadic()
 }
