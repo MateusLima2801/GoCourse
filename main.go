@@ -7,11 +7,13 @@ package main
 // import "go.com/structs"
 // import "go.com/structspractice"
 // import "go.com/generics"
-import "go.com/lists"
+// import "go.com/lists"
+import "go.com/maps"
 
 func main() {
 	// banking.StartBank()
 	// pointers.StartPointers()
 	// structspractice.StartPractice()
-	lists.Practice()
+	// lists.Practice()
+	maps.Practice()
 }
