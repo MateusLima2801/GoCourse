@@ -6,11 +6,12 @@ package main
 // import "go.com/pointers"
 // import "go.com/structs"
 // import "go.com/structspractice"
-import "go.com/generics"
+// import "go.com/generics"
+import "go.com/lists"
 
 func main() {
 	// banking.StartBank()
 	// pointers.StartPointers()
 	// structspractice.StartPractice()
-	generics.Start()
+	lists.Practice()
 }
