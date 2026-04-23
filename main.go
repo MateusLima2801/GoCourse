@@ -9,7 +9,8 @@ package main
 // import "go.com/generics"
 // import "go.com/lists"
 // import "go.com/maps"
-import "go.com/functions"
+// import "go.com/functions"
+import "go.com/concurrency"
 
 func main() {
 	// banking.StartBank()
@@ -17,5 +18,6 @@ func main() {
 	// structspractice.StartPractice()
 	// lists.Practice()
 	// maps.Practice()
-	functions.Variadic()
+	// functions.Variadic()
+	concurrency.Start()
 }
